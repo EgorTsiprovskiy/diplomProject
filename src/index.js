@@ -1,3 +1,3 @@
-import testModule from "./modules/test";
+import requestCall from "./modules/requestCall";
 
-testModule();
+requestCall()
