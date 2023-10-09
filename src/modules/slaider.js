@@ -43,47 +43,6 @@ const slaider = () => {
             },
           },
       });
-
-
-
-
-
-// <div class="benefits-arrows">
-// 					<div class="benefits__arrow benefits__arrow--left">
-// 						<img src="images/benefits/left-arrow.svg" alt="">
-// 					</div>
-// 					<div class="benefits__arrow benefits__arrow--right">
-// 						<img src="images/benefits/right-arrow.svg" alt="">
-// 					</div>
-// 				</div>
-
-
-
-
-//   const slaiderBlock = document.querySelector(".benefits-wrap");
-//   const slaiderArrow = document.querySelector(".benefits-arrows");
-//   const slaides = document.querySelectorAll(".benefits__item");
-
-//   let count = 2;
-//   let currentSlideIndex = 0;
-
-//   slaides.forEach((item, index) => {
-//     if (index <= count) {
-//       //item.style.display = 'none'
-//       item.remove();
-//     }
-//   });
-
-//   const nextSlide = (slaides) => {
-//     slaiderBlock.append(slaides);
-//   };
-
-//   const prevSlide = (slaides) => {
-//     slaides.remove();
-//   };
-
-//   console.log(slaiderBlock);
-//   console.log(slaides);
 };
 
 export default slaider;
