@@ -11,7 +11,6 @@ const requestCall = () => {
         substrate.style.display = "block";
 
         headerModal.addEventListener("click", (e) => {
-            console.log(e.target);
             if (
                 e.target.classList.contains("header-modal__close")
               ) {
