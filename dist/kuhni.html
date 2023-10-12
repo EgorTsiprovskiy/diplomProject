@@ -18,10 +18,12 @@
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="favicon.ico" rel="icon" type="image/x-icon" />
     <link href="favicon.ico" rel="icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="fonts/font.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/animate.css" rel="stylesheet" />
+    
     <title>Шкафы-купе и кухни</title>
     <meta
       name="keywords"
@@ -31,7 +33,8 @@
       name="description"
       content="Выгодное изготовление кухонь и шкафов-купе! Отличные цены и акции!"
     />
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
+    <script src="./js/kuhni.bundle.js" defer></script>
   </head>
   <body class="kuhni">
     <nav
@@ -213,39 +216,39 @@
           <div class="heading-image"><i class="benefit-ico"></i></div>
           <h2 class="heading"><span>Выгоды</span> для клиентов</h2>
         </div>
-        <div class="benefits-inner">
-          <div class="benefits-wrap">
-            <div class="benefits__item">
+        <div class="benefits-inner swiper swiperKuhni1">
+          <div class="benefits-wrap swiper-wrapper">
+            <div class="benefits__item swiper-slide">
               <p class="benefit-image">
                 <img src="images/benefits/4.png" alt="" />
               </p>
               <p class="benefit-title">Рассрочка без банка</p>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item swiper-slide">
               <p class="benefit-image">
                 <img src="images/benefits/2.png" alt="" />
               </p>
               <p class="benefit-title">Гарантии от 3 до 10 лет</p>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item swiper-slide">
               <p class="benefit-image">
                 <img src="images/benefits/3.png" alt="" />
               </p>
               <p class="benefit-title">Индивидуальный подход</p>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item swiper-slide">
               <p class="benefit-image">
                 <img src="images/benefits/1.png" alt="" />
               </p>
               <p class="benefit-title">Бесплатные консультации</p>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item swiper-slide">
               <p class="benefit-image">
                 <img src="images/benefits/5.png" alt="" />
               </p>
               <p class="benefit-title">Бесплатный выезд мастера на дом</p>
             </div>
-            <div class="benefits__item">
+            <div class="benefits__item swiper-slide">
               <p class="benefit-image">
                 <img src="images/benefits/6.png" alt="" />
               </p>
@@ -254,10 +257,10 @@
           </div>
         </div>
         <div class="benefits-arrows">
-          <div class="benefits__arrow benefits__arrow--left">
+          <div class="benefits__arrow benefits__arrow--left kuhni__arrow--left1">
             <img src="images/benefits/left-arrow.svg" alt="" />
           </div>
-          <div class="benefits__arrow benefits__arrow--right">
+          <div class="benefits__arrow benefits__arrow--right kuhni__arrow--right1">
             <img src="images/benefits/right-arrow.svg" alt="" />
           </div>
         </div>
@@ -265,13 +268,13 @@
     </div>
 
     <div id="services" class="section">
-      <div class="container">
+      <div class="container swiper swiperKuhni2">
         <div class="section-title">
           <div class="heading-image"><i class="service-ico"></i></div>
           <h2 class="heading white">Наши <span>услуги</span></h2>
         </div>
-        <div class="row">
-          <div class="col-md-12 col-lg-6">
+        <div class="row swiper-wrapper">
+          <div class="col-md-12 col-lg-6 swiper-slide">
             <div class="service-block">
               <div class="service-image">
                 <img src="images/services/9.jpg" alt="" />
@@ -354,7 +357,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-12 col-lg-6">
+          <div class="col-md-12 col-lg-6 swiper-slide">
             <div class="service-block">
               <div class="service-image">
                 <img src="images/services/10.jpg" alt="" />
@@ -479,7 +482,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-12 col-lg-6">
+          <div class="col-md-12 col-lg-6 swiper-slide">
             <div class="service-block">
               <div class="service-image">
                 <img src="images/services/11.jpg" alt="" />
@@ -538,7 +541,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-12 col-lg-6">
+          <div class="col-md-12 col-lg-6 swiper-slide">
             <div class="service-block">
               <div class="service-image">
                 <img src="images/services/12.jpg" alt="" />
@@ -585,15 +588,16 @@
               </div>
             </div>
           </div>
+        </div>
           <div class="services-arrows">
-            <div class="services__arrow services__arrow--left">
+            <div class="services__arrow services__arrow--left kuhni__arrow--left2">
               <img src="images/benefits/left-arrow.svg" alt="" />
             </div>
-            <div class="services__arrow services__arrow--right">
+            <div class="services__arrow services__arrow--right kuhni__arrow--right2">
               <img src="images/benefits/right-arrow.svg" alt="" />
             </div>
           </div>
-        </div>
+        
       </div>
     </div>
 
